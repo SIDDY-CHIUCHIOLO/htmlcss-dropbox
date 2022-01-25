@@ -6,4 +6,47 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+section.jumbotron{
+    height: 400px;
+    background-color: #5300a5;
+}
+
+main section.dropbox-prezzi{
+    height: 1200px;
+    background-color: yellow;
+}
+
+main section.dropbox-operazioni{
+    height: 600px;
+    background-color: violet;
+}
+
+main section.dropbox-clienti{
+    height: 300px;
+    background-color: lightgreen;
+}
+
+main section.dropbox-prova-gratuita{
+    height: 150px;
+    background-color: lightblue;
+}
+
+main section.dropbox-prova-gratuita{
+    height: 350px;
+    background-color: pink;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+}
+
