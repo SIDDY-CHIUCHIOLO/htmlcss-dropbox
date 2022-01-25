@@ -61,8 +61,16 @@ button{
 }
 
 section.jumbotron{
-    height: 400px;
-    background-color: #5300a5;
+    height: 600px;
+    background-color: #b4d0e7;
+    padding-top: 70px;
+}
+
+section.jumbotron .container{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    background-color: chartreuse;
 }
 
 main section.dropbox-prezzi{
