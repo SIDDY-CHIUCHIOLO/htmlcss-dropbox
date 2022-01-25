@@ -10,9 +10,54 @@ body{
 }
 
 header{
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: red;
+    line-height: 80px;
+}
+
+header .container{
+    width: calc(100% - 40px);
+    height: 100%;
+    margin: 0 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header img{
+    height: 100%;
+    vertical-align: text-bottom;
+}
+
+header .container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+header .container ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+}
+
+header .container .float-left{
+    float: left;
+}
+
+header .container .float-right{
+    float: right;
+}
+
+button{
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 20px;
+    border: none;
 }
 
 section.jumbotron{
