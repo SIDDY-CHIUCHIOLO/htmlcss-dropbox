@@ -59,6 +59,8 @@ button{
     background-color: #0061ff;
     padding: 10px 20px;
     border: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 section.jumbotron{
@@ -81,14 +83,14 @@ section.jumbotron .large-container h1{
 
 section.jumbotron .large-container .text{
     height: 65%;
-    width: 30%;
+    width: 35%;
     background-color: #b4d0e7;
     border: black solid 1px;
 }
 
 section.jumbotron .large-container .img{
     height: 65%;
-    width: 70%;
+    width: 65%;
     background-color: blue;
 }
 
@@ -103,11 +105,32 @@ section.jumbotron .large-container i{
 
 section.jumbotron img{
     width: 100%;
+    padding-top:20px;
+}
+
+main section{
+    padding: 200px 0;
+}
+
+main section .small-container{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    background-color:red;
 }
 
 main section.dropbox-prezzi{
     height: 1200px;
     background-color: yellow;
+}
+
+main section.dropbox-prezzi h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+main section.dropbox-prezzi span{
+    padding-right: 20px;
 }
 
 main section.dropbox-operazioni{
