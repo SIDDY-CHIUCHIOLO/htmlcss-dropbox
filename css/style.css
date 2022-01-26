@@ -16,10 +16,11 @@ header{
     line-height: 80px;
 }
 
-header .container{
+header .header-container{
     width: calc(100% - 40px);
     height: 100%;
     margin: 0 20px;
+    min-width: 1180px;
 }
 
 .clearfix::after{
@@ -33,23 +34,23 @@ header img{
     vertical-align: text-bottom;
 }
 
-header .container ul li a{
+header .header-container ul li a{
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 
-header .container ul li{
+header .header-container ul li{
     list-style-type: none;
     display: inline;
     padding: 25px;
 }
 
-header .container .float-left{
+.float-left{
     float: left;
 }
 
-header .container .float-right{
+.float-right{
     float: right;
 }
 
@@ -66,11 +67,42 @@ section.jumbotron{
     padding-top: 70px;
 }
 
-section.jumbotron .container{
+section.jumbotron .large-container{
     height: 100%;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     background-color: chartreuse;
+}
+
+section.jumbotron .large-container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+section.jumbotron .large-container .text{
+    height: 65%;
+    width: 30%;
+    background-color: #b4d0e7;
+    border: black solid 1px;
+}
+
+section.jumbotron .large-container .img{
+    height: 65%;
+    width: 70%;
+    background-color: blue;
+}
+
+section.jumbotron .large-container p{
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+section.jumbotron .large-container i{
+    font-size: 40px;
+}
+
+section.jumbotron img{
+    width: 100%;
 }
 
 main section.dropbox-prezzi{
