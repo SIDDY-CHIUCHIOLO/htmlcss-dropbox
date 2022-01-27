@@ -121,7 +121,6 @@ main section.dropbox-prezzi{
 main section .small-container{
     margin: 0 auto;
     width: 70%;
-    height: 100%;
     background-color:red;
 }
 
@@ -181,13 +180,13 @@ main section.dropbox-prezzi .archiving p{
     padding: 10px 0;
 }
 
-main section.dropbox-prezzi .link a{
+main section  a{
     color: #3883ff;
     font-weight: 600;
 }
 
 main section.dropbox-prezzi hr{
-    margin-right:  220px;
+    margin-right:  130px;
 }
 
 main section.dropbox-prezzi .plan-info h4, li{
@@ -265,8 +264,85 @@ main section.dropbox-operazioni .operations-card p{
 }
 
 main section.dropbox-clienti{
-    height: 300px;
+    height: 1000px;
     background-color: lightgreen;
+}
+
+main section .clients-container{
+    width: 100%;
+    height: 500px;
+    background-color: greenyellow;
+    padding-top: 100px;
+}
+
+main section .clients-container .svg-contain{
+    width: 30%;
+    height: 300px;
+    background-color: blue;
+}
+
+main section .clients-container .svg-contain .svg{
+    width: 50%;
+    height: 50%;
+    border: black solid 1px;
+    position: relative;
+}
+
+main section .clients-container .svg-contain .svg-bg-designit{
+    background-color: #a2d39b;
+    border: #d0e9cd solid 10px;
+}
+
+main section .clients-container .svg-contain .svg-bg-arizona{
+    background-color: #61082b;
+}
+
+main section .clients-container .svg-contain .svg-bg-florida{
+    background-color: #0093ce;
+}
+
+main section .clients-container .svg-contain .svg-bg-topps{
+    background-color: #ff1c1c;
+}
+
+main section .clients-container .svg-contain .svg-bg-world{
+    background-color: #d5001f;
+}
+
+main section .clients-container .svg-contain .svg-bg-hearts{
+    background-color: #b4d0e7;
+}
+
+main section .clients-container .svg-contain .svg-bg-lonely{
+    background-color: #0d2481;
+}
+
+main section .clients-container .svg-contain .svg-bg-clear{
+    background-color: #ffd830;
+}
+
+main section .clients-container .svg-contain img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+main section .clients-container .svg-text-contain img{
+    width: 87.5px;
+    height: 27.78;
+}
+
+main section .clients-container .svg-text-contain p{
+    padding: 30px 0;
+}
+
+main section .clients-container .svg-text-contain{
+    width: 40%;
+    height: 300px;
+    background-color: yellow;
+    padding: 30px;
 }
 
 main section.dropbox-prova-gratuita{
