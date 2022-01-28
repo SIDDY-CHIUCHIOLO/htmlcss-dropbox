@@ -18,10 +18,12 @@ header{
 }
 
 header .header-container{
-    width: calc(100% - 40px);
-    height: 100%;
-    margin: 0 20px;
+    width: 100%;
+    padding: 0 20px;
     min-width: 1180px;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
 }
 
 .clearfix::after{
@@ -38,6 +40,7 @@ header .header-container ul li a{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    padding-bottom: 30px;
 }
 
 header .header-container ul li{
@@ -65,8 +68,8 @@ button{
 
 section.jumbotron{
     background-color: #b4d0e7;
-    padding-top: 70px;
-    height: 670px;
+    padding-top: 150px;
+    height: 750px;
 }
 
 .large-container{
@@ -78,7 +81,7 @@ section.jumbotron{
 section.jumbotron .large-container h1{
     font-size: 60px;
     font-weight: bold;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 section.jumbotron .large-container .text{
@@ -373,3 +376,7 @@ footer .footer-bottom{
 footer i{
     padding-top: 30px;
 }
+
+/* effetti hover */
+
+
