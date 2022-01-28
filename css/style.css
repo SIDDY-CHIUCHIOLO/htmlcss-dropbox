@@ -9,10 +9,11 @@ body{
     width: 100%;
 }
 
-header{
-    height: 80px;
+body img{
     width: 100%;
-    background-color: red;
+}
+
+header{
     line-height: 80px;
 }
 
@@ -31,10 +32,6 @@ header .header-container{
 
 header img{
     vertical-align: text-bottom;
-}
-
-img{
-    width: 100%;
 }
 
 header .header-container ul li a{
@@ -67,16 +64,13 @@ button{
 }
 
 section.jumbotron{
-    height: 600px;
     background-color: #b4d0e7;
     padding-top: 70px;
 }
 
 .large-container{
-    height: 100%;
     width: 80%;
     margin: 0 auto;
-    background-color: chartreuse;
 }
 
 section.jumbotron .large-container h1{
@@ -85,16 +79,11 @@ section.jumbotron .large-container h1{
 }
 
 section.jumbotron .large-container .text{
-    height: 65%;
     width: 35%;
-    background-color: #b4d0e7;
-    border: black solid 1px;
 }
 
 section.jumbotron .large-container .img{
-    height: 65%;
     width: 65%;
-    background-color: blue;
 }
 
 section.jumbotron .large-container p{
@@ -114,14 +103,9 @@ main section{
     padding-top: 200px;
 }
 
-main section.dropbox-prezzi{
-    background-color: yellow;
-}
-
 .small-container{
     margin: 0 auto;
     width: 70%;
-    background-color:red;
 }
 
 main section h2{
@@ -133,17 +117,17 @@ main section.dropbox-prezzi span{
     padding-right: 20px;
 }
 
+main section.dropbox-prezzi .input{
+    padding-bottom: 20px;
+}
+
 main section.dropbox-prezzi .cards-container{
-    width: 100%;
-    background-color: green;
-    border: black solid 1px;
-    padding: 20px 0 150px 0;
+    padding-bottom: 150px;
 }
 
 main section.dropbox-prezzi .card{
     width: 30%;
-    height: 1100px;
-    background-color: lightblue;
+    height: 1200px;
     border: black solid 1px;
     font-size: 14px;
 }
@@ -212,30 +196,14 @@ main section.dropbox-prezzi .title-card button{
     right: 20px;
 }
 
-main section.dropbox-prezzi .partner-dropbox{
-    width: 100%;
-    height: 500px;
-    background-color: burlywood;
-}
-
 main section.dropbox-prezzi .partner-dropbox .img{
     width: 60%;
-    height: 500px;
-    background-color: cadetblue;
-    border: blueviolet solid 1px;
-    
 }
 
 main section.dropbox-prezzi .partner-dropbox .text-img{
     width: 40%;
-    height: 500px;
-    background-color: cadetblue;
-    border: blueviolet solid 1px;
     line-height: 30px;
-    padding: 40px 0;
-
-
-    
+    padding: 40px 0 0 40px;
 }
 
 main section.dropbox-prezzi .partner-dropbox .text-img p{ 
@@ -248,13 +216,8 @@ main section.dropbox-prezzi .partner-dropbox button{
     border: black solid 1px;
 }
 
-main section.dropbox-operazioni{
-    background-color: violet;
-}
-
 main section.dropbox-operazioni .operations-card{
     width: 30%;
-    background-color: blue;
 }
 
 main section.dropbox-operazioni .operations-card h3{
@@ -265,28 +228,18 @@ main section.dropbox-operazioni .operations-card p{
     padding-bottom: 50px;
 }
 
-main section.dropbox-clienti{
-    height: 1000px;
-    background-color: lightgreen;
-}
-
 main section .clients-container{
-    width: 100%;
-    height: 500px;
-    background-color: greenyellow;
     padding-top: 100px;
 }
 
 main section .clients-container .svg-contain{
     width: 30%;
-    height: 300px;
-    background-color: blue;
+    height: 400px;
 }
 
 main section .clients-container .svg-contain .svg{
     width: 50%;
     height: 50%;
-    border: black solid 1px;
     position: relative;
 }
 
@@ -343,13 +296,11 @@ main section .clients-container .svg-text-contain p{
 
 main section .clients-container .svg-text-contain{
     width: 40%;
-    height: 300px;
-    background-color: yellow;
     padding: 30px;
 }
 
 main section.dropbox-prova-gratuita{
-    background-color: blue;
+    background-color: #b4d0e7;
 }
 
 main section.dropbox-prova-gratuita .small-container{
@@ -370,8 +321,7 @@ main section.dropbox-prova-gratuita h2{
 }
 
 main section.dropbox-domande{
-    height: 700px;
-    background-color: yellow;
+    padding-bottom: 200px;
 }
 
 main section.dropbox-domande .small-container h3{
@@ -388,10 +338,12 @@ main section.dropbox-domande .small-container ul li{
 }
 
 footer{
-    height: 350px;
     background-color: black;
     color: white;
-    
+}
+
+footer .large-container h4{
+    padding-bottom: 20px;
 }
 
 footer .large-container ul li{
@@ -403,18 +355,14 @@ footer .container-column{
     width: calc(100% / 5)
 }
 
-.footer-top{
-    height: 150px;
-    width: 100%;
-    background-color: blue;
+footer .footer-top{
+    padding:40px 0;
 }
 
-.footer-bottom{
-    height: 100px;
-    width: 100%;
-    background-color: coral;
+footer .footer-bottom{
+    padding-bottom: 40px;
 }
 
 footer i{
-    padding-top: 20px;
+    padding-top: 30px;
 }
