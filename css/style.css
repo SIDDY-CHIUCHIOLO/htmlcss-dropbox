@@ -288,6 +288,7 @@ main section .clients-container .svg-contain img{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
+    filter: invert(100%);
 }
 
 main section .clients-container .svg-text-contain img{
