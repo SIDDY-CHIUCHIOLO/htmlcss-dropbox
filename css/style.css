@@ -71,19 +71,24 @@ section.jumbotron{
 .large-container{
     width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
 section.jumbotron .large-container h1{
     font-size: 60px;
     font-weight: bold;
+    padding-bottom: 40px;
 }
 
 section.jumbotron .large-container .text{
-    width: 35%;
+    width: 30%;
+    padding-bottom: 55px;
 }
 
 section.jumbotron .large-container .img{
-    width: 65%;
+    width: 70%;
+    position: absolute;
+    right: 0;
 }
 
 section.jumbotron .large-container p{
