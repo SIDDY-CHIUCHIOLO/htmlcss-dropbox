@@ -193,7 +193,7 @@ main section  a{
 
 main section.dropbox-prezzi .plan-info h4, li{
     list-style: none;
-    line-height: 50px;
+    padding: 20px 0;
 }
 
 main section.dropbox-prezzi .fa-check{
@@ -370,8 +370,21 @@ main section.dropbox-prova-gratuita h2{
 }
 
 main section.dropbox-domande{
-    height: 400px;
+    height: 700px;
     background-color: yellow;
+}
+
+main section.dropbox-domande .small-container h3{
+    border-bottom:lightgray solid 1px;
+    padding-bottom: 30px;
+}
+
+main section.dropbox-domande .small-container i{
+    padding-right: 30px;
+}
+
+main section.dropbox-domande .small-container ul li{
+    border-bottom:lightgray solid 1px;
 }
 
 footer{
