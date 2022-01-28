@@ -66,6 +66,7 @@ button{
 section.jumbotron{
     background-color: #b4d0e7;
     padding-top: 70px;
+    height: 670px;
 }
 
 .large-container{
@@ -82,7 +83,6 @@ section.jumbotron .large-container h1{
 
 section.jumbotron .large-container .text{
     width: 30%;
-    padding-bottom: 55px;
 }
 
 section.jumbotron .large-container .img{
